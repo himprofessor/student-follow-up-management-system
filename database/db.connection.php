@@ -1,7 +1,7 @@
 <?php
     $HOST = "localhost";
     $USERNAME = "root";
-    $DBNAME = "student_follow_up";
+    $DBNAME = "product_upload";
     $PASSWORD = "";
 
     $DSN = "mysql:host=$HOST;dbname=$DBNAME;";
