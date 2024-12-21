@@ -2,7 +2,6 @@
     $URI = parse_url($_SERVER['REQUEST_URI'])["path"];
     $routes = [
         "/" => "controllers/home/controller.php",
-
         "/login" => "controllers/auth/login.controller.php",
     ];
 
