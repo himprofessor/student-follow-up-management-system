@@ -10,4 +10,12 @@
         ]);
         return $state->rowCount() > 0;
     }
+    function login($email){
+        global $DB;
+        $statement = $DB->prepare(" SELECT * FROM users WHERE email = :email");
+        $statement->execute([
+            ":email" => $email
+        ]);
+        return $statement->fetch();
+    }
 ?>

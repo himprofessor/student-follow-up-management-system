@@ -1,6 +1,6 @@
 <?php
 
-require "models/auth/auth.model.php";
+require "models/auth/model.auth.php";
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST'){
     $email = $_POST['email'];
