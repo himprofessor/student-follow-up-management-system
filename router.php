@@ -4,6 +4,8 @@
         "/" => "controllers/home/controller.php",
         "/login" => "controllers/auth/login.controller.php",
         "/register" => "controllers/auth/register.controller.php",
+        "/register/process" => "controllers/auth/register.process.controller.php",
+
 
     ];
 
