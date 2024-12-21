@@ -3,7 +3,7 @@ require "views/partials/header.php";
 ?>
 
 
-<form action="" method="POST" class="">
+<form action="/login/process" method="POST" class="">
     <div class="container my-5 ">
         <div class="row">
             <div class="col-3"></div>
@@ -11,11 +11,11 @@ require "views/partials/header.php";
                 <h1 class="text-secondary text-center">Login Form</h1>
                 <div class="my-3 ">
                     <label for="email" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com">
                 </div>
                 <div class="my-3">
-                    <label for="password" class="form-label">Password: </label>
-                    <input type="password" class="form-control" id="password" placeholder="Password">
+                    <label for="password" class="form-label">Password: </label> 
+                    <input type="password" class="form-control" name="password" id="password" placeholder="Password">
                 </div>
                 <p>You don't have account yet? <a href="/register">Register Now</a></p>
                 <button type="submit" class="btn btn-success btn-md float-end">

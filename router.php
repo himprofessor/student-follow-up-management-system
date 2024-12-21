@@ -3,6 +3,7 @@
     $routes = [
         "/" => "controllers/home/controller.php",
         "/login" => "controllers/auth/login.controller.php",
+        "/login/process" => "controllers/auth/login.process.controller.php",
         "/register" => "controllers/auth/register.controller.php",
 
     ];
