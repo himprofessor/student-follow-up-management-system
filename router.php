@@ -8,6 +8,9 @@
         "/register" => "controllers/auth/register.controller.php",
         "/register/process" => "controllers/auth/register.process.controller.php",
 
+        "/batch" => "controllers/batches/batch.controller.php",
+        "/class" => "controllers/classes/class.controller.php",
+
 
     ];
 

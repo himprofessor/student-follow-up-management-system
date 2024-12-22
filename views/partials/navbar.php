@@ -10,10 +10,10 @@
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Batch List</a>
+          <a class="nav-link" href="/batch">Batch List</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Class List</a>
+          <a class="nav-link" href="/class">Class List</a>
         </li>
 
       </ul>
